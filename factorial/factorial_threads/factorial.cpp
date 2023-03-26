@@ -39,7 +39,6 @@ int main(int argc, char *argv[]) {
     } else {
         pthread_count = std::stoi(argv[1]);
     }
-    std::cout << pthread_count << "\n";
 
     std::int32_t num = -1;
     while (num < 0) {
@@ -70,6 +69,6 @@ int main(int argc, char *argv[]) {
 
     sem_unlink("new_sem");
     sem_close(sem);
-    std::cout << "Result: " << answer;
+    std::cout << num << "! = " << answer;
 
 }
