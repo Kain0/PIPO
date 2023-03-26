@@ -4,5 +4,4 @@
 4 ../test.sh
 5 ../test.sh
 6 ../test.sh
-7 ../test.sh
 10 ../test.sh
